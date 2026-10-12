@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="vpaid-isolation-test-001">
+    <InLine>
+      <AdSystem>Publisher VPAID Isolation Test</AdSystem>
+      <AdTitle>VPAID 2.0 Basic Playback Test</AdTitle>
+      <Creatives>
+        <Creative id="vpaid-test-creative-001">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="application/javascript" apiFramework="VPAID" width="640" height="360"><![CDATA[https://tonydroque.github.io/vpaid-test/vpaid-test.js]]></MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
